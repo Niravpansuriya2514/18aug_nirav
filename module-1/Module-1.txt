@@ -1,0 +1,65 @@
+1.  what is software?what is software engineering?
+ -   software is collection of information , intruction and data.
+
+2. explain types of software 
+       -  (1) system software
+          (2) application software 
+          (3) programming software
+          (4) driver software
+          (5) middleware software
+
+  (1) systemsoftware 
+    -  these software programs are designed to run a computer`s application programs and hardware.
+    -  system software coordinates the activities and functions of the hardware and software.
+    -  the os is the best example of system software ; it manages all the other computer programs. 
+    -  other examples of system software include the firmware, computer language translators and system utilities...
+    ex. windos, mac, android ,ubantu
+
+  (2) application software
+    - application software use
+     (a)mobile application   
+          ex.watsapp,intagram,facebook..
+     (b)web browser                
+           ex. crom...
+     (c)desktop app                  
+         notepad,paint ,ms office, microsoft office,photo shop
+
+  (3) programming software 
+    -  computer programers use programing softwareto write code.
+    -  programming software is use to communicate between human and machin   
+
+     (a) high level programming 
+       pop- procedure orinted programing 
+     ex- c,basic ,fortran
+ 
+     -  oop-object orianted programming
+        ex-c++,java,peal, net, c#,f#
+
+      - logical programming 
+        ex-prolog
+
+     -  sdripting language
+        ex- java script, nide js ,php ,react,angular,
+
+    -  functional programing 
+       ex-python,lisp  
+
+   (b)  low level programing   
+          -near to machin far to human 
+
+   (4) driver software
+     ex audio driver, video driver, network driver
+
+    (5) midal ware software 
+     ex-data base
+
+3. what is the SDLC?explain each phase of SDLC
+     software development life cycle (SDLC) methodology with clearly defined
+     processes for creating high - qualite software 
+    
+    (1)planing
+    (2)analysis
+    (3)designing
+    (4)inplementation
+    (5)testing
+    (6)maintennance
