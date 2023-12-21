@@ -1,0 +1,91 @@
+1.what do you undertand by database
+
+ ->database is collection of data stored in a computer system.
+ ->database managed is (DBMS)database management system.
+ ->database is collection of data in a format that can be esily accessed.
+
+2.what is normalization ?
+
+ -> Normalization is a database design technique
+  -1NF : First Normal Form
+   2NF : Second Normal Form
+   3NF : Third Normal Form
+   BCNF: Boyce-Codd Normal Form
+
+3. what is difference between DBMS and RDBMS ?
+
+ ->           DBMS                         RDBMS
+   data store as file.       |  data stored in table form
+                             | 
+   no relatioship between    |   relation between data.
+   data.                     |
+                             |
+   support single user.      |  support with multiple users.
+                             |
+   it deal with  small       |  it deal with large quanity
+   quanity of data.          |  of data.
+                             |
+   normalisation is          |  normalisation is not 
+   achievable.               |  archivable.
+                             |
+   microsoft access.         |  SQL server.
+
+4.what is MF cod rule of  RDBMS systems?
+
+ ->Rule 1 : The Foundation Rule
+ ->Rule 2 : The Information Rule
+ ->Rule 3 : The Guaranteed Access Rule
+ ->Rule 4: Systematic Treatment Of NULL Value
+ ->Rule 5: Active/Dynamic Online Catalog Based On The Relational Model
+ ->Rule 6: The View Updating Rule
+ ->Rule 7: High-Level Insert, Update & Delete Rule
+ ->Rule 8: Physical Data Independence
+ ->Rule 9: Logical Data Independence
+ ->Rule 10: Integrity Independence
+
+
+5.what do you understnd by  data redundancy?
+
+ ->data redundancy is when an organization store the same data in multiple place at the same time.
+ ->it can be database platform.
+
+6.what is the DDl interpreter?
+
+ ->it processes the DDL statements into a set of table contaninng meta data.
+
+
+7.what is DMl compiler in SQL?
+
+ -> data manipulation language
+ -> types of DML commands
+
+    INSERT   : use data insert into table
+    UPDATE   : use data update in table 
+    DELETE   : use delete records from database
+    TRUNCATE : use delete all records from database
+
+8.What is SQL Key Constraints writing an Example of SQL Key Constraints
+
+ -> SQL constraints are used to specify rules for the data table
+  
+  - not null -> column have not null value
+  - unique -> colume have unique data
+  - primary key ->  use unique data and not null value,combination of a not null and unique 
+  - foreign key -> use raference on other table
+
+9.What is save Point? How to create a save Point write a Query?
+
+->The savepoint is use for dividing,breaking a transaction.
+->save point use statement multi time use.
+
+ - create savepoint savepoint_name;
+ - create savepoint savepoint1;
+ - rollbake to savepoint;
+
+10.What is trigger and how to create a Trigger in SQL
+
+ -> trigger use to store data in database in automatically.
+ 
+ - DELOMITER $$ create trigger trigger_name (after|before) {insert|update|delete} on table_name for each row 
+   begin
+   insert into table_name set colimn_name = new.column_name
