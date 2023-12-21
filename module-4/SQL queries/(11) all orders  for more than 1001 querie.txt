@@ -1,1 +1,0 @@
-select * from customer where fk_sno >1001;

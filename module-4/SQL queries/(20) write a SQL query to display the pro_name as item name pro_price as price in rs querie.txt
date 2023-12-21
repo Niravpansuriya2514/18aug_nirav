@@ -1,1 +1,0 @@
-select pro_name as item_name,pro_price as price_in_rs from item_mast;
