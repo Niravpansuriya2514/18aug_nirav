@@ -1,1 +1,0 @@
-select pro_id,pro_name,pro_price from item_mast where between 200 to 600;
