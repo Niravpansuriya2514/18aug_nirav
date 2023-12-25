@@ -1,0 +1,25 @@
+1. what is oop ? list oop concepts
+ ans.oop use objects to design this software.
+ 
+ list of oop
+->(1)class
+  (2)object
+  (3)encapsulation
+  (4)abstraction
+  (5)inheritance
+  (6)polymorphism
+ 
+2. what is the difference between oop and pop ?
+ ans.  
+              oop            |            pop
+   programs is divided into  | programs is divied into 
+   object.                   | funcation.
+                             |
+   use solve in large        | not solve in large 
+   programs.                 | programs. 
+                             |
+   use to hide the data.     | no data hide.
+                             |
+   use access speficier.     | not use access speficier.
+                             | 
+   c++,java,c#,f#            | c,fortran
